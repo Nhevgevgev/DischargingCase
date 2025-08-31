@@ -24,7 +24,7 @@ while (true)
         controller.SendSafetySignal();
     }
 
-    controller.Run(soc, siteLoad);
+    controller.Run(soc, siteLoad, startTemperature);
 
     Thread.Sleep(1000); // 1-second tick
 }
